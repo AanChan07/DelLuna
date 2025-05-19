@@ -1,0 +1,1102 @@
+.design-rooms {
+  background-color: #100b28;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.design-rooms .divv {
+  background-color: #100b28;
+  overflow: hidden;
+  width: 100%; /* atau tetap 1440px jika desain fix */
+  position: relative;
+  /* height: auto; -> tidak perlu ditulis, ini default */
+}
+
+.design-rooms .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 90px;
+  top: 60px;
+  left: 0;
+  background-color: #aa7dfc4c;
+}
+
+.design-rooms .ROOMS {
+  position: absolute;
+  width: 130px;
+  height: 53px;
+  top: 17px;
+  left: 663px;
+}
+
+.design-rooms .text-wrapper {
+  position: absolute;
+  height: 29px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .text-wrapper-2 {
+  position: absolute;
+  width: 56px;
+  height: 18px;
+  top: 35px;
+  left: 70px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .group {
+  position: absolute;
+  width: 73px;
+  height: 18px;
+  top: 52px;
+  left: 655px;
+}
+
+.design-rooms .home {
+  position: absolute;
+  width: 52px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}
+
+.design-rooms .text-wrapper-3 {
+  position: absolute;
+  width: 50px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .arrow-down-sign-to {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 55px;
+  object-fit: cover;
+}
+
+.design-rooms .navbar {
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  top: 0;
+  left: 0;
+}
+
+.design-rooms .header {
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #110c29;
+}
+
+.design-rooms .logo {
+  top: 7px;
+  left: 91px;
+  position: absolute;
+  width: 42px;
+  height: 46px;
+}
+
+.design-rooms .overlap-group {
+  position: relative;
+  width: 43px;
+  height: 47px;
+  top: -1px;
+}
+
+.design-rooms .vector {
+  position: absolute;
+  width: 15px;
+  height: 23px;
+  top: 13px;
+  left: 12px;
+}
+
+.design-rooms .img {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  top: 0;
+  left: 0;
+}
+
+.design-rooms .vector-2 {
+  position: absolute;
+  width: 31px;
+  height: 10px;
+  top: 37px;
+  left: 12px;
+}
+
+.design-rooms .ellipse {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 33px;
+  left: 6px;
+  background-color: #d9d9d9;
+  border-radius: 2.58px/2.62px;
+}
+
+.design-rooms .div-2 {
+  position: absolute;
+  width: 342px;
+  height: 764px;
+  top: 583px;
+  left: 0;
+  background-image: url(./img/65f422131d9d68c9605fdd31-light-20l-webp.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.design-rooms .login {
+  position: absolute;
+  width: 152px;
+  height: 30px;
+  top: 15px;
+  left: 1165px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px #6f58da;
+}
+
+.design-rooms .container {
+  position: relative;
+  height: 1px;
+  top: 14px;
+}
+
+.design-rooms .text-wrapper-4 {
+  position: absolute;
+  width: 128px;
+  height: 20px;
+  top: -10px;
+  left: 12px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.design-rooms .text-wrapper-5 {
+  width: 60px;
+  height: 22px;
+  top: 19px;
+  left: 470px;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .text-wrapper-6 {
+  width: 71px;
+  height: 30px;
+  top: 15px;
+  left: 565px;
+  color: #aa7dfc;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .text-wrapper-7 {
+  width: 101px;
+  height: 18px;
+  top: 19px;
+  left: 672px;
+  color: #ffffff;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .text-wrapper-8 {
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  top: 19px;
+  left: 803px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .text-wrapper-9 {
+  width: 54px;
+  height: 18px;
+  top: 19px;
+  left: 933px;
+  color: #ffffff;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .text-wrapper-10 {
+  position: absolute;
+  width: 124px;
+  height: 18px;
+  top: 19px;
+  left: 1017px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .room {
+  top: 200px;
+  position: absolute;
+  width: 384px;
+  height: 370px;
+  left: 966px;
+}
+
+.design-rooms .overlap-2 {
+  position: absolute;
+  width: 380px;
+  height: 240px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/1-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.design-rooms .rectangle {
+  position: absolute;
+  width: 380px;
+  height: 45px;
+  top: 195px;
+  left: 0;
+  background-color: #242121;
+  opacity: 0.5;
+}
+
+.design-rooms .jumlah {
+  position: absolute;
+  width: 36px;
+  height: 20px;
+  top: 208px;
+  left: 305px;
+}
+
+.design-rooms .text-wrapper-11 {
+  position: absolute;
+  height: 17px;
+  top: 1px;
+  left: 25px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .img-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.design-rooms .group-2 {
+  position: absolute;
+  width: 102px;
+  height: 20px;
+  top: 208px;
+  left: 33px;
+}
+
+.design-rooms .text-wrapper-12 {
+  position: absolute;
+  height: 17px;
+  top: 0;
+  left: 28px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .fasilitas {
+  position: absolute;
+  width: 159px;
+  height: 34px;
+  top: 200px;
+  left: 145px;
+}
+
+.design-rooms .text-wrapper-13 {
+  position: absolute;
+  height: 34px;
+  top: 0;
+  left: 30px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .checked {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 5px;
+  left: 0;
+  object-fit: cover;
+}
+
+.design-rooms .overlap-3 {
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  top: 240px;
+  left: 0;
+  background-color: #f7d8f3;
+  border: 1px solid;
+  border-color: #000000;
+  filter: blur(2px);
+}
+
+.design-rooms .lihat-semua-room {
+  position: absolute;
+  width: 202px;
+  height: 56px;
+  top: 59px;
+  left: 159px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px #6f58da;
+  background: linear-gradient(147deg, rgba(111, 88, 218, 1) 0%, rgba(81, 49, 231, 1) 100%);
+}
+
+.design-rooms .text-wrapper-14 {
+  position: absolute;
+  width: 168px;
+  height: 20px;
+  top: 17px;
+  left: 17px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.design-rooms .pacific-twin {
+  position: absolute;
+  height: 44px;
+  top: 10px;
+  left: 32px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .text-wrapper-15 {
+  position: absolute;
+  height: 22px;
+  top: 14px;
+  left: 175px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #100b28;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .overlap-4 {
+  position: absolute;
+  width: 1442px;
+  height: 1088px;
+  top: 620px;
+  left: 0;
+}
+
+.design-rooms .room-2 {
+  top: 0;
+  position: absolute;
+  width: 384px;
+  height: 370px;
+  left: 966px;
+}
+
+.design-rooms .overlap-5 {
+  position: absolute;
+  width: 380px;
+  height: 240px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/1-3-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.design-rooms .overlap-wrapper {
+  top: 0;
+  position: absolute;
+  width: 385px;
+  height: 370px;
+  left: 533px;
+}
+
+.design-rooms .overlap-6 {
+  position: relative;
+  width: 381px;
+  height: 372px;
+  top: -2px;
+}
+
+.design-rooms .rectangle-2 {
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  top: 242px;
+  left: 1px;
+  background-color: #f7d8f3;
+  border: 1px solid;
+  border-color: #000000;
+  filter: blur(2px);
+}
+
+.design-rooms .div-wrapper {
+  position: absolute;
+  top: 302px;
+  left: 160px;
+  width: 202px;
+  height: 56px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px #6f58da;
+  background: linear-gradient(147deg, rgba(111, 88, 218, 1) 0%, rgba(81, 49, 231, 1) 100%);
+}
+
+.design-rooms .poolside {
+  position: absolute;
+  height: 22px;
+  top: 257px;
+  left: 36px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .RP-malam {
+  position: absolute;
+  height: 22px;
+  top: 257px;
+  left: 169px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #100b28;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .vector-3 {
+  position: absolute;
+  width: 380px;
+  height: 242px;
+  top: 0;
+  left: 0;
+}
+
+.design-rooms .element {
+  top: 2px;
+  left: 1px;
+  position: absolute;
+  width: 380px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.design-rooms .rectangle-3 {
+  position: absolute;
+  width: 380px;
+  height: 45px;
+  top: 197px;
+  left: 1px;
+  background-color: #242121;
+  opacity: 0.5;
+}
+
+.design-rooms .jumlah-2 {
+  position: absolute;
+  width: 36px;
+  height: 20px;
+  top: 210px;
+  left: 305px;
+}
+
+.design-rooms .group-3 {
+  position: absolute;
+  width: 115px;
+  height: 20px;
+  top: 210px;
+  left: 33px;
+}
+
+.design-rooms .fasilitas-2 {
+  position: absolute;
+  width: 97px;
+  height: 25px;
+  top: 207px;
+  left: 167px;
+}
+
+.design-rooms .text-wrapper-16 {
+  position: absolute;
+  height: 17px;
+  top: 4px;
+  left: 30px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .checked-2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.design-rooms .overlap-group-wrapper {
+  top: 0;
+  position: absolute;
+  width: 385px;
+  height: 370px;
+  left: 100px;
+}
+
+.design-rooms .overlap-7 {
+  position: relative;
+  width: 381px;
+  height: 370px;
+}
+
+.design-rooms .gambar {
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 0;
+  left: 0;
+}
+
+.design-rooms .div-3 {
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  top: 240px;
+  left: 1px;
+  background-color: #f7d8f3;
+  border: 1px solid;
+  border-color: #000000;
+  filter: blur(2px);
+}
+
+.design-rooms .lihat-semua-room-2 {
+  position: relative;
+  top: 59px;
+  left: 158px;
+  width: 202px;
+  height: 56px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px #6f58da;
+  background: linear-gradient(147deg, rgba(111, 88, 218, 1) 0%, rgba(81, 49, 231, 1) 100%);
+}
+
+.design-rooms .overlap-group-2 {
+  position: absolute;
+  width: 381px;
+  height: 240px;
+  top: 0;
+  left: 0;
+}
+
+.design-rooms .element-2 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 380px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.design-rooms .rectangle-4 {
+  position: absolute;
+  width: 380px;
+  height: 45px;
+  top: 195px;
+  left: 1px;
+  background-color: #242121;
+  opacity: 0.5;
+}
+
+.design-rooms .text-wrapper-17 {
+  position: absolute;
+  height: 22px;
+  top: 255px;
+  left: 36px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .text-wrapper-18 {
+  position: absolute;
+  height: 22px;
+  top: 255px;
+  left: 176px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #100b28;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .fasilitas-3 {
+  position: absolute;
+  width: 123px;
+  height: 34px;
+  top: 200px;
+  left: 154px;
+}
+
+.design-rooms .footer {
+  position: absolute;
+  width: 1442px;
+  height: 1085px;
+  top: 3px;
+  left: 0;
+  background-color: transparent;
+}
+
+.design-rooms .copyright-all {
+  position: absolute;
+  width: 442px;
+  height: 28px;
+  top: 1057px;
+  left: 499px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #f7d8f3;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-rooms .overlap-8 {
+  position: absolute;
+  width: 1440px;
+  height: 1052px;
+  top: 0;
+  left: 0;
+}
+
+.design-rooms .rectangle-5 {
+  position: absolute;
+  width: 1440px;
+  height: 376px;
+  top: 676px;
+  left: 0;
+  background-color: #aa7dfc4c;
+  opacity: 0.2;
+}
+
+.design-rooms .group-4 {
+  position: absolute;
+  width: 1198px;
+  height: 224px;
+  top: 764px;
+  left: 92px;
+}
+
+.design-rooms .text-wrapper-19 {
+  top: 4px;
+  position: absolute;
+  height: 24px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #f7d8f3;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .text-wrapper-20 {
+  position: absolute;
+  height: 24px;
+  top: 12px;
+  left: 1096px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #aa7dfc;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .email {
+  position: absolute;
+  width: 97px;
+  height: 30px;
+  top: 68px;
+  left: 1052px;
+}
+
+.design-rooms .img-3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.design-rooms .input {
+  position: absolute;
+  height: 24px;
+  top: 3px;
+  left: 44px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7d8f3;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.design-rooms .wa {
+  position: absolute;
+  width: 144px;
+  height: 30px;
+  top: 110px;
+  left: 1052px;
+}
+
+.design-rooms .text-wrapper-21 {
+  position: absolute;
+  height: 24px;
+  top: 3px;
+  left: 44px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7d8f3;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .fb {
+  position: absolute;
+  width: 139px;
+  height: 30px;
+  top: 152px;
+  left: 1052px;
+}
+
+.design-rooms .ig {
+  position: absolute;
+  width: 141px;
+  height: 30px;
+  top: 194px;
+  left: 1052px;
+}
+
+.design-rooms .privacy {
+  width: 115px;
+  top: 69px;
+  left: 1px;
+  position: absolute;
+  height: 18px;
+}
+
+.design-rooms .div-4 {
+  top: 0;
+  left: 14px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7d8f3;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  height: 18px;
+}
+
+.design-rooms .arrow-down-sign-to-2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 2px;
+  left: 0;
+  object-fit: cover;
+}
+
+.design-rooms .login-admin {
+  position: absolute;
+  width: 105px;
+  height: 18px;
+  top: 153px;
+  left: 1px;
+}
+
+.design-rooms .span {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7d8f3;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.design-rooms .text-wrapper-22 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.design-rooms .terms {
+  position: absolute;
+  width: 171px;
+  height: 18px;
+  top: 111px;
+  left: 1px;
+}
+
+.design-rooms .logo-2 {
+  top: 0;
+  left: 1047px;
+  position: absolute;
+  width: 42px;
+  height: 46px;
+}
+
+.design-rooms .ellipse-2 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 33px;
+  left: 6px;
+  background-color: #aa7dfc;
+  border-radius: 2.58px/2.62px;
+}
+
+.design-rooms .div-5 {
+  position: absolute;
+  width: 342px;
+  height: 764px;
+  top: 0;
+  left: 1097px;
+  transform: rotate(180deg);
+  background-image: url(./img/65f422131d9d68c9605fdd31-light-20l-webp-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.design-rooms .group-5 {
+  position: absolute;
+  width: 326px;
+  height: 178px;
+  top: 768px;
+  left: 528px;
+}
+
+.design-rooms .email-2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 111px;
+  left: 0;
+  background-image: url(./img/email.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.design-rooms .nomor {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 153px;
+  left: 0;
+  background-image: url(./img/phone.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.design-rooms .lokasi {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 64px;
+  left: 0;
+  object-fit: cover;
+}
+
+.design-rooms .text-wrapper-23 {
+  position: absolute;
+  height: 18px;
+  top: 117px;
+  left: 51px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7d8f3;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .hotel-del-luna-JI {
+  position: absolute;
+  height: 52px;
+  top: 49px;
+  left: 52px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7d8f3;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.design-rooms .text-wrapper-24 {
+  position: absolute;
+  height: 18px;
+  top: 159px;
+  left: 52px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7d8f3;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .text-wrapper-25 {
+  top: 0;
+  position: absolute;
+  height: 24px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #f7d8f3;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-rooms .room-3 {
+  top: 200px;
+  position: absolute;
+  width: 385px;
+  height: 370px;
+  left: 533px;
+}
+
+.design-rooms .room-4 {
+  top: 200px;
+  position: absolute;
+  width: 385px;
+  height: 370px;
+  left: 100px;
+}
+
+.design-rooms .lihat-semua-room-3 {
+  position: absolute;
+  top: 300px;
+  left: 160px;
+  width: 202px;
+  height: 56px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px #6f58da;
+  background: linear-gradient(147deg, rgba(111, 88, 218, 1) 0%, rgba(81, 49, 231, 1) 100%);
+}
