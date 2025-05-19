@@ -18,6 +18,7 @@
             <div class="atas">
                 <div class="text-nav">FAQS</div>
             </div>
+            
             <div class="form">
                 <div class="contact">
                     <div class="rectangle-2"></div>
