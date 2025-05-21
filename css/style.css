@@ -5,6 +5,7 @@ body {
 
 }
 .desaign-dashboard {
+  position: relative;
     background-color: #100b28;
     display: flex;
     flex-direction: row;
@@ -21,12 +22,6 @@ body {
     
   }
 
-  .overlay {
-  pointer-events: none; /* Membiarkan klik menembus */
-  z-index: 0;
-}
-
-  
   .desaign-dashboard .background-border {
     position: absolute;
     width: 1440px;
@@ -66,7 +61,7 @@ body {
     width: 943px;
     height: 52px;
     top: 329px;
-    left: 108px;
+    left: 80px;
   }
   
   .desaign-dashboard .overlap-group {
@@ -107,7 +102,7 @@ body {
     width: 226px;
     height: 52px;
     top: 437px;
-    left: 108px;
+    left: 80px;
     background-color: #5131e7;
     border-radius: 26px;
   }
@@ -212,7 +207,7 @@ body {
       rgba(111, 88, 218, 1) 0%,
       rgba(81, 49, 231, 1) 100%
     );
-     z-index: 11;
+     z-index: 10;
   }
   
   .desaign-dashboard .div-wrapper {
@@ -346,26 +341,25 @@ body {
   
   .desaign-dashboard .overlap-2 {
     position: absolute;
-    width: 1588px;
+    width: 1440px;
     height: 1549px;
     top: 700px;
-    left: -145px;
+    left: 0px;
   }
   
   .desaign-dashboard .footer {
-    position: relative;
-    width: 1442px;
-    height: 1085px;
-    top: 1170px;
-    left: 1px;
-    background-color: transparent;
+    position: absolute;
+    width: 1440px;
+    height: 410px;
+    top: 1880px;
+    left: 0px;
   }
   
   .desaign-dashboard .copyright-all {
     position: absolute;
     width: 442px;
     height: 28px;
-    top: 1057px;
+    top: 350px;
     left: 499px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
@@ -376,18 +370,18 @@ body {
   }
   
   .desaign-dashboard .overlap-3 {
-    position: absolute;
+    position: relative;
     width: 1440px;
-    height: 1052px;
+    height: 376px;
     top: 0;
     left: 0;
   }
   
   .desaign-dashboard .rectangle {
-    position: absolute;
+    position: relative;
     width: 1440px;
-    height: 376px;
-    top: 676px;
+    height: 346px;
+    top: 0;
     left: 0;
     background-color: #aa7dfc4c;
     opacity: 0.2;
@@ -397,7 +391,7 @@ body {
     position: absolute;
     width: 1198px;
     height: 224px;
-    top: 764px;
+    top: 50px;
     left: 92px;
   }
   
@@ -614,7 +608,7 @@ body {
     position: absolute;
     width: 326px;
     height: 178px;
-    top: 768px;
+    top: 50px;
     left: 528px;
   }
   
@@ -708,7 +702,7 @@ body {
   
   .desaign-dashboard .overlay {
     position: absolute;
-    width: 1497px;
+    width: 1440px;
     height: 640px;
     top: 0;
     left: 0;
@@ -720,14 +714,14 @@ body {
     width: 1264px;
     height: 640px;
     top: 16px;
-    left: 200px;
+    left: 0;
   }
   
   .desaign-dashboard .text-wrapper-18 {
     position: absolute;
     width: 291px;
     top: 62px;
-    left: 0;
+    left: 80px;
     font-family: "Inter-Medium", Helvetica;
     font-weight: 500;
     color: #aa7dfc;
@@ -741,7 +735,7 @@ body {
     position: absolute;
     width: 411px;
     top: 140px;
-    left: 0;
+    left: 80px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #ffffffcc;
@@ -755,7 +749,7 @@ body {
     width: 832px;
     height: 552px;
     top: 36px;
-    left: 432px;
+    left: 532px;
   }
   
   .desaign-dashboard .element {
@@ -772,7 +766,7 @@ body {
     position: absolute;
     width: 539px;
     height: 154px;
-    left: 280px;
+    left: 200px;
     background-color: #f7d8f3;
     border-radius: 10px;
   }
@@ -784,7 +778,7 @@ body {
     top: 16px;
     left: 17px;
     border-radius: 10px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .xmartlabs-team-image {
@@ -848,7 +842,7 @@ body {
     position: absolute;
     width: 539px;
     height: 154px;
-    left: 280px;
+    left: 200px;
     background-color: #f7d8f3;
     border-radius: 10px;
   }
@@ -882,7 +876,7 @@ body {
     position: absolute;
     width: 539px;
     height: 154px;
-    left: 280px;
+    left: 200px;
     background-color: #f7d8f3;
     border-radius: 10px;
   }
@@ -916,7 +910,7 @@ body {
     width: 202px;
     height: 56px;
     top: 490px;
-    left: 165px;
+    left: 255px;
     border-radius: 12px;
     box-shadow: 0px 0px 15px #6f58da;
     background: linear-gradient(
@@ -928,7 +922,7 @@ body {
   }
   
   .desaign-dashboard .text-wrapper-22 {
-    position: absolute;
+    position: relative;
     width: 168px;
     height: 20px;
     top: 17px;
@@ -948,9 +942,9 @@ body {
     width: 1264px;
     height: 405px;
     top: 668px;
-    left: 185px;
+    left: 40px;
     border-radius: 16px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     border: 1px solid;
     border-color: #aa7dfc40;
     background: linear-gradient(
@@ -1039,7 +1033,7 @@ body {
     position: relative;
     width: 133px;
     height: 32px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .clip-path-group {
@@ -1086,7 +1080,7 @@ body {
     position: relative;
     width: 146px;
     height: 48px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .clip-path-group-2 {
@@ -1134,7 +1128,7 @@ body {
     width: 115px;
     height: 53px;
     left: 1px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .clip-path-group-3 {
@@ -1217,14 +1211,14 @@ body {
     height: 52px;
     top: 6px;
     left: 47px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .div-wrapper-11 {
     position: relative;
     height: 52px;
     left: -35px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .overlap-group-wrapper-2 {
@@ -1341,7 +1335,7 @@ body {
   .desaign-dashboard .overlap-group-wrapper-3 {
     width: 122px;
     height: 44px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .overlap-group-5 {
@@ -1451,7 +1445,7 @@ body {
   .desaign-dashboard .group-wrapper-2 {
     width: 162px;
     height: 52px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .group-4 {
@@ -1487,7 +1481,7 @@ body {
   .desaign-dashboard .group-wrapper-3 {
     width: 150px;
     height: 48px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .group-5 {
@@ -1534,7 +1528,7 @@ body {
   
   .desaign-dashboard .clip-path-group-wrapper-5 {
     height: 34px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: relative;
     width: 170px;
   }
@@ -1607,7 +1601,7 @@ body {
   
   .desaign-dashboard .div-wrapper-21 {
     height: 54px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .clip-path-group-wrapper-6 {
@@ -1743,7 +1737,7 @@ body {
     position: relative;
     width: 166px;
     height: 40px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .clip-path-group-10 {
@@ -1808,7 +1802,7 @@ body {
     position: relative;
     width: 137px;
     height: 40px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .clip-path-group-11 {
@@ -1873,7 +1867,7 @@ body {
     position: relative;
     width: 150px;
     height: 48px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .group-6 {
@@ -1979,7 +1973,7 @@ body {
   .desaign-dashboard .clip-path-group-wrapper-9 {
     height: 34px;
     top: 4px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: relative;
     width: 170px;
   }
@@ -2015,7 +2009,7 @@ body {
   .desaign-dashboard .img-wrapper-2 {
     position: relative;
     height: 32px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .img-4 {
@@ -2051,7 +2045,7 @@ body {
     width: 79px;
     height: 32px;
     left: 27px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .desaign-dashboard .clip-path-group-13 {
@@ -2083,7 +2077,7 @@ body {
     width: 800px;
     height: 65px;
     top: 585px;
-    left: 130px;
+    left: 150px;
     background-size: 100% 100%;
   }
 
@@ -2271,11 +2265,11 @@ body {
   display: none;
   position: fixed;
   z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6);
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
   justify-content: center;
   align-items: center;
 }
@@ -2400,7 +2394,7 @@ opacity: 0.2;
   width: 270px;
   height: 480px;
   top: 528px;
-  left: 673px;
+  left: 723px;
   object-fit: cover;
 }
 
@@ -2409,7 +2403,7 @@ opacity: 0.2;
   width: 271px;
   height: 482px;
   top: 528px;
-  left: 978px;
+  left: 1028px;
   object-fit: cover;
 }
 
@@ -2417,7 +2411,7 @@ opacity: 0.2;
   position:absolute;
   width: 504px;
   top: 948px;
-  left: 124px;
+  left: 174px;
   font-family: "Inter-Regular" Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2430,7 +2424,7 @@ opacity: 0.2;
   position:absolute;
   width: 504px;
   top: 914px;
-  left: 123px;
+  left: 173px;
   font-family: "Inter-Regular" Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2443,7 +2437,7 @@ opacity: 0.2;
   position:absolute;
   width: 504px;
   top: 880px;
-  left: 124px;
+  left: 174px;
   font-family: "Inter-Regular" Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2456,7 +2450,7 @@ opacity: 0.2;
   position:absolute;
   width: 504px;
   top: 20px;
-  left: 90px;
+  left: 140px;
   font-family: "Inter-Regular" Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2468,7 +2462,7 @@ opacity: 0.2;
   position:absolute;
   height: 68px;
   top: 785px;
-  left: 81px;
+  left: 131px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 400;
   color: #f4f2f7;
@@ -2490,7 +2484,7 @@ opacity: 0.2;
   width:591px;
   height: 116px;
   top: 658px;
-  left: 75px;
+  left: 125px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #f4f2f7;
@@ -2504,7 +2498,7 @@ opacity: 0.2;
   width: 438px;
   height: 87px;
   top: 528px;
-  left: 74px;
+  left: 124px;
 }
 
 .desaign-dashboard .tombol-kirim {
@@ -2512,7 +2506,7 @@ opacity: 0.2;
     width: 202px;
     height: 56px;
     top: 410px;
-    left: 1048px;
+    left: 1098px;
     border-radius: 12px;
     box-shadow: 0px 0px 15px #6f58da;
     background: linear-gradient(
@@ -2570,28 +2564,28 @@ opacity: 0.2;
 /* Posisi dan ukuran label */
 .desaign-dashboard .full-name {
   top: 79px;
-  left: 89px;
+  left: 139px;
   width: 78px;
   height: 19px;
 }
 
 .desaign-dashboard .phone-number {
   top: 79px;
-  left: 717px;
+  left: 767px;
   width: 120px;
   height: 19px;
 }
 
 .desaign-dashboard .email-address {
   top: 200px;
-  left: 90px;
+  left: 140px;
   width: 117px;
   height: 19px;
 }
 
 .desaign-dashboard .message {
   top: 190px;
-  left: 718px;
+  left: 768px;
   width: 78px;
   height: 19px;
 }
@@ -2625,25 +2619,25 @@ opacity: 0.2;
 /* Posisi dan ukuran input */
 .desaign-dashboard .name {
   top: 109px;
-  left: 89px;
+  left: 139px;
   height: 48px;
 }
 
 .desaign-dashboard .pon {
   top: 109px;
-  left: 716px;
+  left: 766px;
   height: 48px;
 }
 
 .desaign-dashboard .eemail {
   top: 230px;
-  left: 89px;
+  left: 139px;
   height: 48px;
 }
 
 .desaign-dashboard .pesan {
   top: 224px;
-  left: 717px;
+  left: 767px;
   height: 150px;
   resize: vertical; /* biar textarea bisa diubah ukurannya */
   font-family: inherit;
@@ -2704,7 +2698,8 @@ letter-spacing: 0;
   width: 1250px;
   height: 524px;
   top: 0;
-  left: 47px;
+  left: 50%;
+  transform: translateX(-50%);
   object-fit: cover;
 }
 
@@ -2713,7 +2708,8 @@ letter-spacing: 0;
   width: 1178px;
   height: 330px;
   top: 570px;
-  left: 73px;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #f4f2f7;
@@ -2735,3 +2731,595 @@ font-family: "Inter-SemiBold", Helvetica;
 font-weight: 600;
 }
 
+/*untuk halaman Rooms*/
+
+
+.desaign-dashboard .box-rooms {
+  position: absolute;
+  width: 1246px;
+  height: 1830px;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+.desaign-dashboard .room1{
+  position: relative;
+  width: 381px;
+  height: 370px;
+  top: 100px;
+  left: 0;
+}
+
+.desaign-dashboard .overlap-rooms11 {
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  top: 240px;
+  left: 1px;
+  background-color: #f7d8f3;
+  border: 1px solid;
+  border-color: #000000;
+  
+}
+
+.desaign-dashboard .tombol-booking1 {
+  position: absolute;
+  width: 202px;
+  height: 56px;
+  top: 59px;
+  left: 158px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px #6f58da;
+  background: linear-gradient(147deg, rgba(111, 88, 218, 1) 0%, rgba(81, 49, 231, 1) 100%);
+  z-index: 1;
+}
+
+.desaign-dashboard .text-booking-1{
+  position: absolute;
+  width: 168px;
+  height: 20px;
+  top: 15px;
+  left: 17px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.desaign-dashboard .jenis-rooms-1 {
+  position: absolute;
+  height: 22px;
+  top: 14px;
+  left: 34px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard .harga1 {
+  position: absolute;
+  height: 22px;
+  top: 14px;
+  left: 174px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #100b28;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard .overlap-rooms12 {
+  position: absolute;
+  width: 381px;
+  height: 240px;
+  top: 0;
+  left: 0;
+}
+
+.desaign-dashboard .gambar-rooms-1 {
+  position: absolute;
+  width: 378px;
+  height: 240px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desaign-dashboard .rectangle-rooms-1 {
+  position: absolute;
+  width: 378px;
+  height: 40px;
+  top: 200px;
+  left: 0px;
+  background-color: #242121;
+  opacity: 0.5;
+}
+
+.desaign-dashboard .jumlah1 {
+  position: absolute;
+  width: 150px;
+  height: 34px;
+  top: 208px;
+  left: 305px;
+}
+
+.desaign-dashboard .text-jumlah-1 {
+  position: absolute;
+  height: 34px;
+  top: 0;
+  left: 25px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard .gambar-jumlah-1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  color: white;
+  object-fit: cover;
+}
+
+.desaign-dashboard .fasilitas1 {
+  position: absolute;
+  width: 123px;
+  height: 34px;
+  top: 0px;
+  left: 154px;
+}
+
+.desaign-dashboard .text-fasilitas-1 {
+  position: absolute;
+  height: 34px;
+  top: 205px;
+  left: 25px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard .gambar-fasilitas-1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 210px;
+  left: 0;
+  color: white;
+  object-fit: cover;
+}
+
+.desaign-dashboard .bad1 {
+  position: absolute;
+  width: 102px;
+  height: 20px;
+  top: 208px;
+  left: 33px;
+}
+
+.desaign-dashboard .text-bad-1 {
+  position: absolute;
+  height: 17px;
+  top: 0;
+  left: 28px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard .room2{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.desaign-dashboard .room3{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 100px;
+  right: 0;
+}
+
+.desaign-dashboard .room4{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 550PX;
+}
+
+.desaign-dashboard .room5{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 550px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.desaign-dashboard .room6{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 550px;
+  left: 860px;
+}
+
+.desaign-dashboard .room7{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 1000PX;
+}
+
+.desaign-dashboard .room8{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 1000px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.desaign-dashboard .room9{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 1000px;
+  left: 860px;
+}
+
+.desaign-dashboard .room10{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 1450PX;
+}
+
+.desaign-dashboard .room11{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 1450px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.desaign-dashboard .room12{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 1450px;
+  left: 860px;
+}
+
+.desaign-dashboard .box-fasilitas {
+  position: absolute;
+  width: 1246px;
+  height: 810px;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.desaign-dashboard .fasilities1{
+  position: relative;
+  width: 381px;
+  height: 370px;
+  top: 100px;
+  left: 0;
+}
+
+.desaign-dashboard .overlap-fasilitas {
+  position: absolute;
+  width: 381px;
+  height: 240px;
+  top: 0;
+  left: 0;
+}
+
+.desaign-dashboard .gambar-fasilities {
+  position: absolute;
+  width: 378px;
+  height: 240px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desaign-dashboard .rectangle-fasilitas {
+  position: absolute;
+  width: 378px;
+  height: 40px;
+  top: 200px;
+  left: 0px;
+  background-color: #242121;
+  opacity: 0.5;
+}
+
+.desaign-dashboard .jenis-fasilitas {
+  position: absolute;
+  top: 203px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto; /* atau max-width: 100%; */
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.desaign-dashboard .text-jenis-fasilitas {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desaign-dashboard .fasilities2{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.desaign-dashboard .fasilities3 {
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 100px;
+  right: 0;
+}
+
+.desaign-dashboard .fasilities4{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 400px;
+  left: 0;
+}
+
+.desaign-dashboard .fasilities5{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.desaign-dashboard .fasilities6 {
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 400px;
+  right: 0;
+}
+
+.desaign-dashboard .fasilities7{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 700px;
+  left: 0;
+}
+
+.desaign-dashboard .fasilities8{
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 700px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.desaign-dashboard .fasilities9 {
+  position: absolute;
+  width: 381px;
+  height: 370px;
+  top: 700px;
+  right: 0;
+}
+
+.desaign-dashboard .div-login {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 680px;
+  height: 410px;
+  background-color: #ffffff;
+  z-index: 1001; /* lebih tinggi dari overlay */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+.desaign-dashboard .overlay-login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* efek gelap */
+  backdrop-filter: blur(2px); /* blur opsional */
+  z-index: 1000; /* lebih rendah dari .div-login tapi tinggi */
+}
+
+
+.desaign-dashboard .close-login {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 20px;
+  left: 616px;
+  object-fit: cover;
+}
+
+.desaign-dashboard .text-login-1 {
+  position: absolute;
+  height: 17px;
+  top: 370px;
+  left: 234px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard .text-login-2 {
+  position: absolute;
+  height: 17px;
+  top: 370px;
+  left: 362px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #157cb8;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard .tombol-login {
+  position: absolute;
+  width: 613px;
+  height: 50px;
+  top: 300px;
+  left: 32px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px #6f58da;
+  background: linear-gradient(
+    147deg,
+    rgba(111, 88, 218, 1) 0%,
+    rgba(81, 49, 231, 1) 100%
+  );
+}
+
+.desaign-dashboard .text-tombol-login {
+  width: 168px;
+  height: 20px;
+  top: 14px;
+  left: 223px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.desaign-dashboard .pass {
+  position: absolute;
+  top: 190px;
+  left: 32px;
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.desaign-dashboard .text-pass {
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+.desaign-dashboard .input-pass-field {
+  width: 100%;
+  height: 50px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 5px;
+  padding: 0 16px;
+  font-size: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  color: #000000;
+  outline: none;
+}
+
+.desaign-dashboard .input-email {
+  position: absolute;
+  top: 100px;
+  left: 32px;
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.desaign-dashboard .text-input-email {
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+.input-email-field {
+  width: 100%;
+  height: 50px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 5px;
+  padding: 0 16px;
+  font-size: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  color: #000000;
+  outline: none;
+}
+
+
+.desaign-dashboard .text-login-atas {
+  height: 34px;
+  top: 17px;
+  left: 30px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 28px;
+  line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
