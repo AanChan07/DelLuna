@@ -2394,7 +2394,7 @@ opacity: 0.2;
   width: 270px;
   height: 480px;
   top: 528px;
-  left: 723px;
+  left: 673px;
   object-fit: cover;
 }
 
@@ -2403,7 +2403,7 @@ opacity: 0.2;
   width: 271px;
   height: 482px;
   top: 528px;
-  left: 1028px;
+  left: 988px;
   object-fit: cover;
 }
 
@@ -2411,7 +2411,7 @@ opacity: 0.2;
   position:absolute;
   width: 504px;
   top: 948px;
-  left: 174px;
+  left: 124px;
   font-family: "Inter-Regular" Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2424,7 +2424,7 @@ opacity: 0.2;
   position:absolute;
   width: 504px;
   top: 914px;
-  left: 173px;
+  left: 123px;
   font-family: "Inter-Regular" Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2437,7 +2437,7 @@ opacity: 0.2;
   position:absolute;
   width: 504px;
   top: 880px;
-  left: 174px;
+  left: 124px;
   font-family: "Inter-Regular" Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2450,7 +2450,7 @@ opacity: 0.2;
   position:absolute;
   width: 504px;
   top: 20px;
-  left: 140px;
+  left: 90px;
   font-family: "Inter-Regular" Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2462,7 +2462,7 @@ opacity: 0.2;
   position:absolute;
   height: 68px;
   top: 785px;
-  left: 131px;
+  left: 111px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 400;
   color: #f4f2f7;
@@ -2484,7 +2484,7 @@ opacity: 0.2;
   width:591px;
   height: 116px;
   top: 658px;
-  left: 125px;
+  left: 105px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #f4f2f7;
@@ -2498,7 +2498,7 @@ opacity: 0.2;
   width: 438px;
   height: 87px;
   top: 528px;
-  left: 124px;
+  left: 104px;
 }
 
 .desaign-dashboard .tombol-kirim {
@@ -2506,7 +2506,7 @@ opacity: 0.2;
     width: 202px;
     height: 56px;
     top: 410px;
-    left: 1098px;
+    left: 1048px;
     border-radius: 12px;
     box-shadow: 0px 0px 15px #6f58da;
     background: linear-gradient(
@@ -2564,28 +2564,28 @@ opacity: 0.2;
 /* Posisi dan ukuran label */
 .desaign-dashboard .full-name {
   top: 79px;
-  left: 139px;
+  left: 89px;
   width: 78px;
   height: 19px;
 }
 
 .desaign-dashboard .phone-number {
   top: 79px;
-  left: 767px;
+  left: 717px;
   width: 120px;
   height: 19px;
 }
 
 .desaign-dashboard .email-address {
   top: 200px;
-  left: 140px;
+  left: 90px;
   width: 117px;
   height: 19px;
 }
 
 .desaign-dashboard .message {
   top: 190px;
-  left: 768px;
+  left: 718px;
   width: 78px;
   height: 19px;
 }
@@ -2606,7 +2606,7 @@ opacity: 0.2;
 .desaign-dashboard .pesan {
   position: absolute;
   width: 533px;
-  background-color: #ffffff;
+  background-color: #d9d9d9;
   border-radius: 1px;
   border: 1px solid #ccc; /* Tambah border agar input jelas */
   font-size: 16px;
@@ -2619,28 +2619,32 @@ opacity: 0.2;
 /* Posisi dan ukuran input */
 .desaign-dashboard .name {
   top: 109px;
-  left: 139px;
+  left: 89px;
   height: 48px;
+  border-radius: 5px;
 }
 
 .desaign-dashboard .pon {
   top: 109px;
-  left: 766px;
+  left: 716px;
   height: 48px;
+  border-radius: 5px;
 }
 
 .desaign-dashboard .eemail {
   top: 230px;
-  left: 139px;
+  left: 89px;
   height: 48px;
+  border-radius: 5px;
 }
 
 .desaign-dashboard .pesan {
   top: 224px;
-  left: 767px;
+  left: 717px;
   height: 150px;
   resize: vertical; /* biar textarea bisa diubah ukurannya */
   font-family: inherit;
+  border-radius: 5px;
 }
 
 /* Fokus pada input dan textarea */
@@ -3263,7 +3267,7 @@ font-weight: 600;
   margin-left: 5px;
 }
 
-.desaign-dashboard .input-pass-field {
+.desaign-dashboard .input-field {
   width: 100%;
   height: 50px;
   background-color: #d9d9d9;
@@ -3286,29 +3290,6 @@ font-weight: 600;
   gap: 6px;
 }
 
-.desaign-dashboard .text-input-email {
-  font-family: "Inter-Regular", Helvetica, sans-serif;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-  margin-left: 5px;
-}
-
-.input-email-field {
-  width: 100%;
-  height: 50px;
-  background-color: #d9d9d9;
-  border: none;
-  border-radius: 5px;
-  padding: 0 16px;
-  font-size: 15px;
-  font-family: "Inter-Regular", Helvetica;
-  color: #000000;
-  outline: none;
-}
 
 
 .desaign-dashboard .text-login-atas {
@@ -3320,6 +3301,222 @@ font-weight: 600;
   color: #000000;
   font-size: 28px;
   line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.desaign-dashboard  .box-regis{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.desaign-dashboard .rectangle-regis{
+  position:absolute;
+  width: 1250px;
+  height: 800px;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #aa7dfc4c;
+  opacity: 0.2;
+}
+
+
+.desaign-dashboard .regis-nama {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+.desaign-dashboard .text-regis {
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+.desaign-dashboard .regis-field {
+  width: 100%;
+  height: 40px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 5px;
+  padding: 0 16px;
+  font-size: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  color: #000000;
+  outline: none;
+}
+
+.desaign-dashboard .regis-nomor {
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+.desaign-dashboard .regis-email {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.desaign-dashboard .regis-alamat {
+  position: absolute;
+  top: 390px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.desaign-dashboard .regis-alamat-field {
+  width: 100%;
+  height: 60px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 5px;
+  padding:  16px;
+  font-size: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  color: #000000;
+  outline: none;
+}
+
+.desaign-dashboard .regis-foto {
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.desaign-dashboard .regis-foto-field[type="file"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #d9d9d9;
+  font-family: inherit;
+  font-size: 14px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.desaign-dashboard .regis-pass {
+  position: absolute;
+  top: 590px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.desaign-dashboard .regis-pass-k {
+  position: absolute;
+  top: 680px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.desaign-dashboard .setuju-setuju{
+  position: relative;
+  width: 395px;
+  height: 19px;
+  top: 755px;
+  left: 363px;
+}
+.desaign-dashboard .text-regis-1{
+  position: absolute;
+  height: 17px;
+  top: 0;
+  left: 27px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #817e7e;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard .text-regis-2{
+  position: absolute;
+  height: 17px;
+  top: 0;
+  left: 175px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #157cb8;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desaign-dashboard input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2); /* Membesarkan kotaknya */
+  cursor: pointer;
+  top: 750px;
+}
+
+.desaign-dashboard .tombol-signup {
+  position: absolute;
+  width: 613px;
+  height: 50px;
+  top: 800px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px #6f58da;
+  background: linear-gradient(
+    147deg,
+    rgba(111, 88, 218, 1) 0%,
+    rgba(81, 49, 231, 1) 100%
+  );
+}
+
+.desaign-dashboard .text-tombol-regis {
+  width: 168px;
+  height: 20px;
+  top: 14px;
+  left: 223px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  white-space: nowrap;
   position: absolute;
   letter-spacing: 0;
 }
