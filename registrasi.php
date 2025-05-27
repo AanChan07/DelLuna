@@ -24,44 +24,44 @@
 
                 <div class="regis-nama">
                     <div class="text-regis">Nama Lengkap <span class="text-message-1">*</span></div>
-                    <input type="nama" placeholder="Masukkan nama lengkap" class="regis-field">
+                    <input type="nama" id="nama" placeholder="Masukkan nama lengkap" class="regis-field">
                 </div>
 
                 <div class="regis-nomor">
                     <div class="text-regis">No. Telepon <span class="text-message-1">*</span></div>
-                    <input type="nomor" placeholder="Contoh: 082388272388" class="regis-field">
+                    <input type="nomor" id="nomor" placeholder="Contoh: 082388272388" class="regis-field">
                 </div>
 
                 <div class="regis-email">
                     <div class="text-regis">Alamat Email <span class="text-message-1">*</span></div>
-                    <input type="email" placeholder="Contoh: hhanisa@gmail.com" class="regis-field">
+                    <input type="email" id="email" placeholder="Contoh: hhanisa@gmail.com" class="regis-field">
                 </div>
 
                 <div class="regis-alamat">
                     <div class="text-regis">Alamat <span class="text-message-1">*</span></div>
-                    <textarea type="alamat" placeholder="Contoh: JI. Flamboyan No. 36, Batu 10, Kecamatan TanjungPinang"
+                    <textarea type="alamat" id="alamat" placeholder="Contoh: JI. Flamboyan No. 36, Batu 10, Kecamatan TanjungPinang"
                         class="regis-alamat-field"></textarea>
                 </div>
 
                 <div class="regis-foto">
                     <div class="text-regis">Upload Foto KTP <span class="text-message-1">*</span></div>
-                    <input type="file" name="foto_ktp" accept="image/*" class="regis-foto-field" required>
+                    <input type="file" id="fotoKtp" name="foto_ktp" accept="image/*" class="regis-foto-field" required>
                 </div>
 
                 <div class="regis-pass">
                     <div class="text-regis">Password <span class="text-message-1">*</span></div>
-                    <input type="password" placeholder="Masukkan password" class="regis-field">
+                    <input type="password" id="password" placeholder="Masukkan password" class="regis-field">
                 </div>
 
                 <div class="regis-pass-k">
                     <div class="text-regis">Konfirmasi Password <span class="text-message-1">*</span></div>
-                    <input type="password-k" placeholder="Masukkan kembali password" class="regis-field">
+                    <input type="password-k" id="passwordKonfirmasi" placeholder="Masukkan kembali password" class="regis-field">
                 </div>
 
                 <div class="setuju-setuju">
                     <div class="text-regis-1">Saya setuju dengan</div>
                     <div class="text-regis-2">Syarat dan ketentuan yang berlaku</div>
-                    <input type="checkbox" name="setuju" required>
+                    <input type="checkbox" id="setuju" name="setuju" required>
                 </div>
 
                 <div class="tombol-signup">
@@ -78,12 +78,32 @@
 document.addEventListener("DOMContentLoaded", () => {
     const registrasiBtn = document.querySelector(".text-tombol-regis");
 
-    // Fungsi tombol signup di popup
     registrasiBtn.addEventListener("click", () => {
-      window.location.href = "index.php";
+        // Ambil nilai dari input
+        const nama = document.getElementById("nama").value.trim();
+        const nomor = document.getElementById("nomor").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const alamat = document.getElementById("alamat").value.trim();
+        const fotoKtp = document.getElementById("fotoKtp").files.length;
+        const password = document.getElementById("password").value;
+        const passwordKonfirmasi = document.getElementById("passwordKonfirmasi").value;
+        const setuju = document.getElementById("setuju").checked;
+
+        // Validasi
+        if (!nama || !nomor || !email || !alamat || fotoKtp === 0 || !password || !passwordKonfirmasi || !setuju) {
+            alert("Semua kolom wajib diisi dan Anda harus menyetujui syarat dan ketentuan.");
+            return;
+        }
+
+        if (password !== passwordKonfirmasi) {
+            alert("Password dan konfirmasi password tidak cocok.");
+            return;
+        }
+
+        // Jika semua valid, redirect ke halaman index.php
+        window.location.href = "index.php";
     });
 });
-
 </script>
 
 </body>
