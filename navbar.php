@@ -61,12 +61,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
       <div class="pass">
         <div class="text-pass">Password</div>
-        <input type="password" placeholder="Masukkan password" class="input-field">
+        <input type="password" id="loginPassword" placeholder="Masukkan password" class="input-field">
       </div>
 
       <div class="input-email">
         <div class="text-pass">Alamat Email</div>
-        <input type="email" placeholder="Masukkan alamat email" class="input-field">
+        <input type="email" id="loginEmail" placeholder="Masukkan alamat email" class="input-field">
       </div>
 
       <div class="tombol-login">
@@ -128,9 +128,18 @@ $current_page = basename($_SERVER['PHP_SELF']);
       }
     });
 
-    // Login simulasi
+    // ✅ LOGIN FORM VALIDATION
     if (popupLoginBtn) {
       popupLoginBtn.addEventListener("click", () => {
+        const email = document.getElementById("loginEmail")?.value.trim();
+        const password = document.getElementById("loginPassword")?.value;
+
+        if (!email || !password) {
+          alert("Email dan Password tidak boleh kosong.");
+          return;
+        }
+
+        // Jika valid, arahkan ke halaman login.php
         window.location.href = "login.php";
       });
     }
@@ -152,6 +161,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     }
   });
 </script>
+
 
 
 </div>
